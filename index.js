@@ -10,4 +10,4 @@ bot.afk = new Map();
 
 module.exports.bot = bot;
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.token);
