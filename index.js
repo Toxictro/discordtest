@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const bot = new discord.Client({
   disableEveryone: true
 });
-require("./lib/functions")(bot);
+require("./functions")(bot);
 
 bot.commands = new discord.Collection();
 bot.aliases = new discord.Collection();
