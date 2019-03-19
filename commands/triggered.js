@@ -1,5 +1,5 @@
 const snekfetch = require('snekfetch');
-const token = require('../token.json').arcadia;
+const token = (process.env.arcadia);
 
 module.exports.run = async (bot, message, args) => {
 
