@@ -1,5 +1,4 @@
 const discord = require("discord.js");
-const token = require("./token.json").token;
 const bot = new discord.Client({
   disableEveryone: true
 });
@@ -11,4 +10,4 @@ bot.afk = new Map();
 
 module.exports.bot = bot;
 
-bot.login(token);
+bot.login(process.env.TOKEN);
